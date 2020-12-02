@@ -7,14 +7,14 @@ close.addEventListener('click',closeModal);
 
 function showModal(){
 
-        // overlay.classList.add('open-modal');
+         overlay.classList.add('open-modal');
 
 
 }
 
 function closeModal(){
 
-    // overlay.classList.remove('open-modal');
+     overlay.classList.remove('open-modal');
 }
 
 setInterval(closeModal,2000);
